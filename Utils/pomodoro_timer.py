@@ -22,9 +22,9 @@ def main():
         print("2. Start Short Break (5 minutes)")
         print("3. Start Long Break (15 minutes)")
         print("4. Exit")
-        
+
         choice = input("Select an option: ")
-        
+
         if choice == '1':
             pomodoro_timer(25)
         elif choice == '2':
